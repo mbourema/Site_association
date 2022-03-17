@@ -1,0 +1,115 @@
+/* Définition de la police des titres principaux des 2 pages */
+h1 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+/* Ajustement de la taille des images des cartes par rapport aux cartes */
+.card-img-top {
+  width: 15,5em;
+  height: 15em;
+}
+/* Ajustement de la taille de la police des textes des cartes */
+.card-text {
+  font-size:100%;
+}
+/* Définition de la largeur de l'introduction */
+#introduction {
+  width: 100%;
+  height:25%;
+  font-size:100%;
+}
+/* Définition de la largeur et de la hauteur de l'image par rapport à son élément parent, l'introduction */
+#onigashima {
+  width:100%;
+  height:350px;
+}
+/* Définition de la largeur et de la hauteur de l'iframe */
+#lofi {
+  width:500px;
+  height:250px;
+}
+/* Média querie pour les écran d'au moins 1280px(écran d'ordinateurs en général), l'introduction prends 50 pourcents de la page html et est centrée, l'ifram est centrée aussi et le formulaire de don se limite à 50 pourcents de la page */
+@media screen and (min-width : 1280px) {
+  #introduction {
+    width: 50%;
+    height:50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #lofi {
+    width:500px;
+    height:250px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #formulaire-don {
+    width:50%;
+  }
+}
+
+/* Encadrement de l'ifram youtube pour ajouter du style */
+#lofi {
+  border-style:outset;
+  border-width:2px;
+  border-color:yellow;
+}
+/* Encadrement des textes de la 2ième page */
+#chiffres {
+  border-style:solid;
+  border-width:2px;
+  border-color:black;
+}
+/* Alignement au centre et soulignage des titres de la page 2 */
+#infos {
+  text-align: center;
+  text-decoration: underline;
+  text-color: red;
+}
+/* L'apparence des textes change lorsque la souris se pose dessus, ils grossissent */
+#introduction:hover {
+  font-weight: bold;
+}
+#lien:hover {
+  font-weight: bold;
+}
+#bouton:hover {
+  font-weight: bold;
+}
+#don:hover {
+  font-weight: bold;
+}
+#majeur:hover {
+  font-weight: bold;
+}
+#soumettre:hover {
+  font-weight: bold;
+}
+#bouton2:hover {
+  font-weight: bold;
+}
+#chiffres:hover {
+  font-weight: bold;
+}
+#infos:hover {
+  color: yellow;
+  font-weight: bold;
+}
+#don:hover {
+  font-weight: bold;
+}
+#majeur:hover {
+  font-weight: bold;
+}
+#soumettre:hover {
+  font-weight: bold;
+}
+#bouton2:hover {
+  font-weight: bold;
+}
+#chiffres:hover {
+  font-weight: bold;
+}
+#infos:hover {
+  color: yellow;
+  font-weight: bold;
+}

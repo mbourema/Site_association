@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--Titre du site et choix de l'encodage-->
+    <title> Joy Boy 1</title>
+    <meta charset="utf-8" />
+<!-- Description du site -->
+    <meta name="description" content="Retrouvez toutes les infos sur le retour de Joy Boy et aidez-le à venir à bout de Kaido !" />
+<!-- Contrôler la mise en page sur mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  CDN Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- Feuille CSS-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Conteneur général que l'on va remplir avec l'image de fond de notre page html-->
+    <div id="conteneur-general" class="container-fluid" style="background-image: url('https://fullsync.co.uk/wp-content/uploads/2020/04/HokageZero_ONEPIECEPIRATEWARRIORS4_20200413_09-13-15.png')";>
+      <div id="page" class="row">
+        <div id="image-de-fond" class="col-12">
+  <header>
+<!-- Titre de la page HTML-->
+    <h1 class="text-center text-decoration-underline text-danger ">JOY BOY</h1>
+   </header>
+    <nav role="navigation">
+<!-- Création de notre menu de navigation -->
+<!-- A partir de quelle taille la navbar doit se déployer, sinon passer en design responsive. La nav bar reste attchée au haut de l'écran pendant le scroll -->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-warning">
+          <div class="container-fluid">
+            <a class="navbar-brand">Menu de navigation</a>
+<!-- Ajout d'un bouton qui apparaît uniquement en responsive, et qui se charge de faire apparaître les liens de navigations les uns en dessous des autres -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+<!-- Définition de la liste qui est responsive, avec ses items et qui apparaît à gauche-->  
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#acceuil">Home</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link" href="#presentation">Présentation du site</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#personnages">Présentation des personnages clés</a>
+                 <li class="nav-item">
+                 <a class="nav-link" href="#chapitre">Lien vers le dernier chapitre</a>
+               </li>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#donations"> Formulaire de donation </a>
+               </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+<!-- Contenu de la page HTML-->
+  <main>
+    <div id="acceuil">
+      <h3 class="text-center text-decoration-underline text-danger">Acceuil</h3>
+    </div>
+   <aside id="presentation">
+     <h3 id="contexte" class="text-center text-decoration-underline text-danger">Présentation du site</h3>
+      <p class="text-center border border-dark border border-3" id="introduction">Bienvenu sur notre site association dédié au combat de Monkey D. Luffy contre Kaido aux cents bêtes ! Les événements à Onigashima ont pris un tournant décisif recemment, les membres de l'équipage du chapeau de paille sont venus à bout de leurs opposants respectifs, et Law et Kid ont défaits la yonko Big Mom ! Cependant sur le toit d'Onigashima luffy a été pris à parti dans son un contre un avec kaido par un memebre du CP0 ! Ayant reçu un coup très violent et actuellement en état de santé critique, il a besoin de subir une série d'opérations urgentes et onéreuses ! Venez lui en aide en faisant une donation et participez au basculement de l'ère de la piraterie !
+<!--Image illustrant la présentation-->
+     <img id="onigashima" src="https://images4.alphacoders.com/104/1045167.jpg" class="card-img-center" alt="Onigashima">
+      </p>
+     </aside>
+     <section>
+       <article id="personnages">
+<!-- Carte-->
+               <div id=cards class="row">
+       <h2 class="col-12 text-center text-decoration-underline text-danger ">Présentation des personnages clés</h2>
+       <div class="col-4">
+<!-- Déclaration du composant -->
+           <div class="card">
+<!-- Image située en haut -->
+               <img id="img-luffy" src="https://collection.cdn-pictorem.com/collection/900_Coolbits-Art_monkey8.jpg" class="card-img-top" alt="Luffy">
+<!-- Corps de la carte -->
+               <div class="card-body">
+<!-- Titre -->
+                   <h5 class="card-title">Monkey D. Luffy</h5>
+<!-- Contenu de la carte -->
+                   <p class="card-text">
+                       Il est le fondateur et le capitaine de l'équipage de Chapeau de paille. Son rêve de toujours est de devenir le roi des pirates en trouvant le One Piece, laissé par le défunt roi des pirates, Gol D. Roger. Selon lui, le roi des pirates est l'homme le plus libre du monde.
+                   </p>
+               </div>
+           </div>
+       </div>
+<!-- Un autre carte -->
+       <div class="col-4">
+<!-- Déclaration du composant -->
+           <div class="card">
+<!-- Image située en haut -->
+               <img src="https://pbs.twimg.com/media/EbsuVu3XYAM_O19.jpg" class="card-img-top" alt="Joy Boy">
+<!-- Corps de la carte -->
+               <div class="card-body">
+<!-- Titre -->
+                   <h5 class="card-title">Joy Boy</h5>
+<!-- Contenu de la carte -->
+                   <p class="card-text">
+                       Joy Boy ( ジョイボーイ, Joi Bōi) était une entité vivant à la surface qui a joué un rôle important dans l'Histoire de l'Île des Hommes-Poissons. Il aurait vécu 800 ans avant l'époque actuelle soit le siècle oublié. Il a laissé à Laugh Tale quelque chose d'une incroyable valeur.
+                   </p>
+               </div>
+           </div>
+       </div>
+<!-- Un autre carte-->
+             <div class="col-4">
+<!-- Déclaration du composant -->
+           <div class="card">
+<!-- Image située en haut -->
+               <img id="img-kaido" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/512bfbe4-1969-4c9a-9a06-ef57ffafe2e0/ddrpg0z-4eb6ec5a-63d2-48b5-adcc-361e3cb2dc7e.jpg/v1/fill/w_1280,h_1573,q_75,strp/kaido___one_piece_by_corasaan_ddrpg0z-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU3MyIsInBhdGgiOiJcL2ZcLzUxMmJmYmU0LTE5NjktNGM5YS05YTA2LWVmNTdmZmFmZTJlMFwvZGRycGcwei00ZWI2ZWM1YS02M2QyLTQ4YjUtYWRjYy0zNjFlM2NiMmRjN2UuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.6GZcWlVRKjOsjcOHPvg9dJnoxv9RwAkD3w_-nqYLLFY" class="card-img-top" alt="Kaido">
+<!-- Corps de la carte -->
+               <div class="card-body">
+<!-- Titre -->
+                   <h5 class="card-title">Kaido aux cents bêtes</h5>
+<!-- Contenu de la carte -->
+                   <p class="card-text">
+                       Kaido (カイドウ, Kaidō), surnommé "Kaido aux Cent Bêtes" est le capitaine de l'équipage aux Cent Bêtes ainsi que l'un des Quatre Empereurs,le troisième à être mentionné par son nom. Il est également connu comme étant "La Créature la Plus Puissante du Monde".
+                   </p>
+               </div>
+           </div>
+       </div>
+   </div>
+        </article>
+        <article id="chapitre">
+<!-- Un lien vers un site de scan one piece-->
+          <h3 class="text-center text-decoration-underline text-danger ">Un lien vers le dernier chapitre !</h3>
+          <p id="lien" class="text-center text-dark">Lien vers le chapitre 1043 de one piece : <a id="bouton" href="https://www.scan-vf.net/one_piece/chapitre-1043/1" class="btn btn-info text-dark">Cliquez</a></p>
+        </article>
+        <article id="donations">
+          <h3 class="text-center text-decoration-underline text-danger ">Permettez à luffy de se remettre sur pied !</h3>
+<!-- Un petit formulaire de donation-->
+          <div class="form-group" id="formulaire-don">
+            <label id="don" class="text-center text-dark ">Faites un don</label>
+            <input type="text" class="form-control" id="element" placeholder="Indiquez la somme en euros dont vous voulez faire don (exemple: 432,37 €)" id="formulaire-don">
+          </div>
+<!-- Une case à cocher-->
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="check">
+            <label id="majeur" class="form-check-label text-dark" for="check">
+              Je suis majeur </label>
+          </div>
+<!-- Un bouton "soumettre"-->
+         <p id="soumettre" class="text-center text-dark "> Je soumets mon don : <a id="bouton2" class="btn btn-info text-dark">Soumettre</a></p> 
+        </article>
+     </section>
+ </main>
+ <footer>
+<!-- Mise en place d'une pagination-->
+   <div class="row">
+     <nav class="col-12" aria-label="Page navigation">
+<!-- Déclaration du composant + On indique qu'il sera placé à l'extrémité de la page -->
+       <ul class="pagination justify-content-end">
+<!-- Item de navigation, ici désactivé car on se trouve en page 1 -->
+         <li class="page-item disabled">
+<!-- Lien vers la page concernée -->
+           <a class="page-link" href="index.html" aria-label="Previous">
+             <span aria-hidden="true">&laquo;</span>
+           </a>
+         </li>
+<!-- Page courante-->
+         <li class="page-item active"><a class="page-link" href="index.html">1</a></li>
+         <li class="page-item"><a class="page-link" href="index2.html">2</a></li>
+         <li class="page-item">
+           <a class="page-link" href="index2.html" aria-label="Next">
+             <span aria-hidden="true">&raquo;</span>
+           </a>
+         </li>
+       </ul>
+     </nav>
+   </div>
+ </footer>
+      </div>
+      </div>
+    </div>
+<!-- Lien vers le CDN bootstrap 5 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</html>
